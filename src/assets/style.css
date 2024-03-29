@@ -1,0 +1,66 @@
+:root {
+    --main-background-color: #151515;
+    --main-text-color: #ffffff;
+    --main-link-color: #fadd50;
+}
+
+body {
+    background-color: var(--main-background-color);
+}
+
+.primary {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome {
+    margin: 2px 0px;
+    color: var(--main-text-color);
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    color: var(--main-text-color);
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.links p:not(:last-child)::after {
+    content: '●';
+    margin: 0px 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--main-link-color);
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.skills {
+    margin: 12px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .welcome {
+        font-size: 26px;
+    }
+
+    .link {
+        font-size: 14px;
+    }
+
+    .skills {
+        width: 80vw;
+    }
+}
