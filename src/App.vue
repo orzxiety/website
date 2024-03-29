@@ -6,6 +6,6 @@
             <p><a class="link" href="https://t.me/orzxiety">Telegram</a></p>
             <p><a class="link" href="https://github.com/Orzxiety">GitHub</a></p>
         </div>
-        <img class="skills" src="https://skillicons.dev/icons?i=py,cpp,js,mint,figma,html,css,kotlin">
+        <img class="skills" src="https://skillicons.dev/icons?i=py,cpp,js,linux,figma,html,css">
     </div>
 </template>
