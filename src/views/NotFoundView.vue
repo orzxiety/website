@@ -4,9 +4,9 @@
 
 <template>
     <div class="primary">
-        <h1 class="welcome">Такой страницы нет</h1>
+        <h1>Такой страницы нет</h1>
         <div class="links">
-            <p><a class="link" href="/">Вернуться на главную</a></p>
+            <p><RouterLink to="/" class="link">Вернуться на главную</RouterLink></p>
         </div>
     </div>
 </template>
