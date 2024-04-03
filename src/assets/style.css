@@ -10,7 +10,7 @@ body {
 
 .primary {
     display: flex;
-    height: 90vh;
+    height: 90%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -59,15 +59,12 @@ p {
         font-size: 28px;
     }
 
-    .link {
+    p {
         font-size: 16px;
-    }
-
-    .links p {
         margin: 12px 0px;
     }
 
     .skills {
-        width: 80vw;
+        width: 80%;
     }
 }
