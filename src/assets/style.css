@@ -84,6 +84,11 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
+    body {
+        background-image: linear-gradient(120deg, 
+            var(--main-background-color), var(--main-secondary-background-color) 50%, var(--main-background-color));
+    }
+
     h1 {
         font-size: 28px;
     }
