@@ -31,6 +31,10 @@ p {
     font-size: 18px;
 }
 
+img {
+    margin: 12px 0px;
+}
+
 .links {
     display: flex;
     align-items: center;
@@ -50,10 +54,6 @@ p {
     text-decoration: underline;
 }
 
-.skills {
-    margin: 12px 0px;
-}
-
 @media only screen and (max-width: 768px) {
     h1 {
         font-size: 28px;
@@ -64,7 +64,7 @@ p {
         margin: 12px 0px;
     }
 
-    .skills {
+    img {
         width: 80%;
     }
 }

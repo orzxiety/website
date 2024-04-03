@@ -8,7 +8,7 @@ const router = createRouter({
             component: () => import('./views/IndexView.vue')
         },
         {
-            path: '/discord',
+            path: '/guilds',
             component: () => import('./views/DiscordLinks.vue')
         },
         {
