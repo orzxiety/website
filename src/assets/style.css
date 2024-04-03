@@ -1,11 +1,40 @@
 :root {
-    --main-background-color: #151515;
+    --main-background-color: #101010;
+    --main-secondary-background-color: #202020;
     --main-text-color: #ffffff;
     --main-link-color: #fadd50;
 }
 
 body {
-    background-color: var(--main-background-color);
+    background-size: 500% 500%;
+    background-image: linear-gradient(30deg, 
+            var(--main-background-color), var(--main-secondary-background-color) 50%, var(--main-background-color));
+    -webkit-animation: AnimateBG 30s ease-in-out infinite;
+            animation: AnimateBG 30s ease-in-out infinite;
+}
+
+@-webkit-keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+  
+@keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .primary {
