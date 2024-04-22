@@ -12,6 +12,10 @@ const router = createRouter({
             component: () => import('./views/DiscordLinks.vue')
         },
         {
+            path: '/.well-known/matrix/server',
+            component: () => import('./views/MatrixServerInfo.vue')
+        },
+        {
             path: '/:pathMatch(.*)',
             component: () => import ('./views/NotFoundView.vue')
         }
