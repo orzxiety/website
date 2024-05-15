@@ -8,10 +8,6 @@ const router = createRouter({
             component: () => import('./views/IndexView.vue')
         },
         {
-            path: '/guilds',
-            component: () => import('./views/DiscordLinks.vue')
-        },
-        {
             path: '/:pathMatch(.*)',
             component: () => import ('./views/NotFoundView.vue')
         }
