@@ -62,7 +62,7 @@ body {
 
 .rowLinksContent p:not(:last-child)::after {
     content: '●';
-    margin: 0px 12px;
+    margin: 0px 8px;
 }
 
 .iconContainer {
@@ -113,10 +113,18 @@ p {
 }
 
 @media only screen and (max-width: 686px) {
+    .primary {
+        padding: 60px 40px;
+    }
+
     .primaryContainer {
         width: 100%;
-        padding: 18px 32px;
-        min-width: 328px;
+        padding: 12px 28px;
+        min-width: 296px;
+    }
+
+    .avatar {
+        height: 56px;
     }
 
     .icon {
