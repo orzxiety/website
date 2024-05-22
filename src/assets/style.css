@@ -46,7 +46,7 @@ body {
 
 .rowContent {
     display: flex;
-    gap: 24px;
+    gap: 18px;
     align-items: center;
     flex-direction: row;
 }
@@ -76,6 +76,7 @@ body {
 .avatar {
     height: 72px;
     border-radius: 64px;
+    margin: 0px 8px 0px 0px;;
 }
 
 .icon {
@@ -125,6 +126,7 @@ p {
 
     .avatar {
         height: 56px;
+        margin: 0px 0px 0px 0px;
     }
 
     .icon {
