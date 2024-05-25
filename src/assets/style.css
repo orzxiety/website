@@ -74,6 +74,14 @@ p {
 
 @media only screen and (max-width: 486px) {
     .primaryContainer {
-        padding: 8px
+        padding: 12px
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 22px;
     }
 }
