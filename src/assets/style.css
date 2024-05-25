@@ -76,16 +76,4 @@ p {
     .primaryContainer {
         padding: 8px
     }
-
-    .avatar {
-        height: 56px;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    p {
-        font-size: 18px;
-    }
 }
